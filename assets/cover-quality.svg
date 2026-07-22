@@ -1,11 +1,11 @@
  (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/assets/cover-life.svg b/assets/cover-life.svg
+diff --git a/assets/cover-quality.svg b/assets/cover-quality.svg
 new file mode 100644
-index 0000000000000000000000000000000000000000..bbc67c470032c63c76c0c7e660e5deabb4652bf6
+index 0000000000000000000000000000000000000000..c0e0f496f92b82290808598996cfdd95dc6e328f
 --- /dev/null
-+++ b/assets/cover-life.svg
++++ b/assets/cover-quality.svg
 @@ -0,0 +1 @@
-+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#f0e8ff"/><circle cx="650" cy="90" r="105" fill="#d7c1ff"/><path d="M170 180h360v125c0 112-73 180-180 180s-180-68-180-180Z" fill="#fff" stroke="#8658d4" stroke-width="24"/><path d="M530 215h45c104 0 104 150 0 150h-61M275 125c-47-60 59-63 12-123M410 125c-47-60 59-63 12-123" fill="none" stroke="#8658d4" stroke-width="22" stroke-linecap="round"/></svg>
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#dff3ec"/><circle cx="650" cy="110" r="120" fill="#f6c764" opacity=".7"/><circle cx="160" cy="410" r="180" fill="#78cfb2" opacity=".35"/><path d="M90 380l150-142 110 82 170-190 170 105" fill="none" stroke="#169b75" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><circle cx="520" cy="130" r="24" fill="#fff" stroke="#169b75" stroke-width="14"/></svg>
  
 EOF
 )
