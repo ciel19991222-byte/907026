@@ -1,0 +1,11 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/assets/cover-life.svg b/assets/cover-life.svg
+new file mode 100644
+index 0000000000000000000000000000000000000000..bbc67c470032c63c76c0c7e660e5deabb4652bf6
+--- /dev/null
++++ b/assets/cover-life.svg
+@@ -0,0 +1 @@
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="#f0e8ff"/><circle cx="650" cy="90" r="105" fill="#d7c1ff"/><path d="M170 180h360v125c0 112-73 180-180 180s-180-68-180-180Z" fill="#fff" stroke="#8658d4" stroke-width="24"/><path d="M530 215h45c104 0 104 150 0 150h-61M275 125c-47-60 59-63 12-123M410 125c-47-60 59-63 12-123" fill="none" stroke="#8658d4" stroke-width="22" stroke-linecap="round"/></svg>
+ 
+EOF
+)
